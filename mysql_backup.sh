@@ -13,7 +13,7 @@ MYSQL_BACKUP_PASSWORD="$BACKUP_PASSWORD"
 
 MYSQL_BACKUP_USER=backup
 MYSQL_BACKUP_DIR="$HOME/mysql_backup"
-MYSQL_BINDIR="$HOME/mysql/bin"
+MYSQL_BINDIR="/usr/local/mysql/bin"
 
 # MYSQL_BACKUP_DIR
 	# directory name to store the backup file; readable and writable only
