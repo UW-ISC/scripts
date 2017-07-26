@@ -3,3 +3,5 @@ export WORDPRESS_PATH=/full/path/to/wordpress/installation
 export REMOTE_USERNAME=user-for-rsync
 export REMOTE_ADDRESS=remote.host.name
 export REMOTE_WORDPRESS_PATH=/remote/path/to/wordpress/installation
+
+export BACKUP_PASSWORD=your_backup_password

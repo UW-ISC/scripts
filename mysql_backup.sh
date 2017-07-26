@@ -2,9 +2,13 @@
 # Script to dump a database backup, keeping one previous backup so that we 
 # aren't overwriting our good copy if it fails.
 
+here=`find . -name scripts`
+vars="$here/envvars.sh"
+source $vars
+
 ##### required configuration parameters #################
 
-MYSQL_BACKUP_PASSWORD='BACKUP_PASSWORD'
+MYSQL_BACKUP_PASSWORD="$BACKUP_PASSWORD"
 
 ###### end configuration -- see below for requirements ##
 
