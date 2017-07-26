@@ -2,8 +2,7 @@
 # Script to dump a database backup, keeping one previous backup so that we 
 # aren't overwriting our good copy if it fails.
 
-here=`find . -name scripts`
-vars="$here/envvars.sh"
+vars="$HOME/scripts/envvars.sh"
 source $vars
 
 ##### required configuration parameters #################

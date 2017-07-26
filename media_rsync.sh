@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-here=`find . -name scripts`
-vars="$here/envvars.sh"
+vars="$HOME/scripts/envvars.sh"
 source $vars
 
 src_path="$REMOTE_USERNAME@$REMOTE_ADDRESS:$REMOTE_WORDPRESS_PATH/wp-content/uploads/"
