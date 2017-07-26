@@ -11,7 +11,7 @@ MYSQL_BACKUP_PASSWORD="$BACKUP_PASSWORD"
 
 ###### end configuration -- see below for requirements ##
 
-MYSQL_BACKUP_USER=backup
+MYSQL_BACKUP_USER=readonly
 MYSQL_BACKUP_DIR="$HOME/mysql_backup"
 MYSQL_BINDIR="/usr/local/mysql/bin"
 
