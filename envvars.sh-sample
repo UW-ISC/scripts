@@ -4,4 +4,8 @@ export REMOTE_USERNAME=user-for-rsync
 export REMOTE_ADDRESS=remote.host.name
 export REMOTE_WORDPRESS_PATH=/remote/path/to/wordpress/installation
 
+export REMOTE_DB_ADDRESS=remote.database.host.name
+export REMOTE_HOME=/remote/path/to/home/dir
+export MYSQL_BACKUP_DIR=mysql_backup
+
 export BACKUP_PASSWORD=your_backup_password
