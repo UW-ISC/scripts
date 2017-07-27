@@ -1,4 +1,6 @@
 export WORDPRESS_PATH=/full/path/to/wordpress/installation
+export ISC_THEME_PATH=/full/path/to/themes/isc-uw-child
+export TRACKING_BRANCH=mainline-branch-to-track
 
 export REMOTE_USERNAME=user-for-rsync
 export REMOTE_ADDRESS=remote.host.name
