@@ -54,4 +54,4 @@ BACKUP_FILE="${MYSQL_BACKUP_DIR}/backup.sql"
 # keep one previous backup
 [ -f "${BACKUP_FILE}"  ] && mv "${BACKUP_FILE}" "${BACKUP_FILE}.0"
 
-${MYSQL_BINDIR}/mysqldump -u $MYSQL_BACKUP_USER --password=$MYSQL_BACKUP_PASSWORD --opt --all-databases > $BACKUP_FILE
+${MYSQL_BINDIR}/mysqldump -u $MYSQL_BACKUP_USER --password=$MYSQL_BACKUP_PASSWORD --opt --all-databases > $BACKUP_FILE 2>&1 | grep -v "mysqldump: [Warning] Using a password on the command line interface can be insecure."
